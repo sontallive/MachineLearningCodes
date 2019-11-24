@@ -24,10 +24,10 @@ def readDataset(dir_path):
 
 
 if __name__ == "__main__":
-    vec = img2vector('KNN/testDigits/0_0.txt')
+    vec = img2vector('kNN/testDigits/0_0.txt')
     print(vec.shape)
-    train_data,train_labels = readDataset('KNN/trainingDigits')
-    test_data,test_labels = readDataset('KNN/testDigits')
+    train_data,train_labels = readDataset('kNN/trainingDigits')
+    test_data,test_labels = readDataset('kNN/testDigits')
     print('read done!')
 
     model = knn()

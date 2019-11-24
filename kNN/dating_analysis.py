@@ -27,7 +27,7 @@ def autonorm(dataset):
 
 
 if __name__ == "__main__":
-    dataset,labels = file2matrix('KNN/datingTestSet2.txt')
+    dataset,labels = file2matrix('kNN/datingTestSet2.txt')
     labels = np.array(labels)
     print(dataset.shape)
     print(labels.shape)
